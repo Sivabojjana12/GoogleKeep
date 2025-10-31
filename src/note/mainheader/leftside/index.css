@@ -1,0 +1,9 @@
+.leftheader {
+    display: flex;
+    align-items: center;
+}
+.refresh_menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}

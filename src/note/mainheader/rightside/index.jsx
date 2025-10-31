@@ -13,14 +13,16 @@ function Rightside() {
           </Tooltip>
         </div>
         <div className='keepicon'>
-          <Tooltip title="Google Keep">
+          <Tooltip title="Keep">
           <img src="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png" srcset="https://www.gstatic.com/images/branding/product/1x/keep_2020q4_48dp.png 1x, https://www.gstatic.com/images/branding/product/2x/keep_2020q4_48dp.png 2x " alt="" aria-hidden="true" role="presentation" sx="width:40px;height:40px"></img>
           </Tooltip>
+          <Tooltip title="Keep">
           <span>Keep</span>
+          </Tooltip>
         </div>
         <div className='searchboxdiv'>
           <Tooltip title="Search">
-          <SearchIcon/>
+          <SearchIcon sx={{ color: 'white' }}/>
           </Tooltip>
           <input type="text" placeholder='Search' className='searchbox'/>
         </div>
