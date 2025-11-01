@@ -1,9 +1,23 @@
 .leftheader {
     display: flex;
     align-items: center;
+    gap: 50px;
+    margin-right: 20px;
 }
 .refresh_menu {
     display: flex;
-    gap: 20px;
     align-items: center;
+}
+.profile_menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.app_icon:hover,
+.refresh_icon:hover,
+.grid_icon:hover,
+.settings_icon:hover {
+    background-color:#575757;
+    border-radius: 50%;
+    cursor: pointer;
 }

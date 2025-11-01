@@ -1,7 +1,10 @@
 .menuicon:hover {
-  background-color: rgb(164, 163, 163);
+  background-color: #575757;
   border-radius: 50%;
   cursor: pointer;
+}
+.Menuicon{
+  color: white;
 }
 .keepicon{
   display: flex;
@@ -16,6 +19,7 @@
   align-items: center;
   gap: 10px;
   padding: 6px 10px;
+  margin-left: 15px;
 }
 .searchboxdiv{
   display: flex;
@@ -23,8 +27,8 @@
   gap: 5px;
   border: 1px solid grey;
   border-radius: 8px;
-  width: 750px;
-  padding: 15px 15px;
+  width: 850px;
+  padding: 18px 15px;
   background-color: #F1F3F43D;
   margin-left: 90px;
 }
