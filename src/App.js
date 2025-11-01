@@ -4,7 +4,10 @@ import Mainheader from './note/mainheader';
 function App() {
   return (
     <div className="App">
-      <Mainheader />
+      <div className="Mainheader">
+        <Mainheader />
+        <hr sx={{height: '0px'}}/>
+      </div>
     </div>
   );
 }

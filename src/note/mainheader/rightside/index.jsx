@@ -9,7 +9,7 @@ function Rightside() {
     <div className='Rightsideheader'>
         <div className='Menuicon'>
           <Tooltip title="Main Menu">
-            <MenuIcon  className='menuicon' fontSize='large'sx={{color:"white"}}/>
+            <MenuIcon  className='menuicon' fontSize='large'sx={{padding:'5px'}}/>
           </Tooltip>
         </div>
         <div className='keepicon'>
