@@ -27,4 +27,8 @@
 .App-link {
   color: #61dafb;
 }
-
+.sidebar {
+  height: 100%;
+  width: 350px;
+  left: 0;
+}
