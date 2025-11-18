@@ -16,7 +16,7 @@ import './index.css';
 const Sidebar = () => {
   return (
     <div className='main_sidebar'>
-        <list>
+        <List>
                 <ListItemButton>
                     <ListItemIcon>
                         <LightbulbOutlinedIcon sx={{color:'white'}} fontSize="large" />
@@ -51,7 +51,26 @@ const Sidebar = () => {
                     </ListItemIcon>
                     <ListItemText primary="Trash" sx={{color:'white'}}/>
                 </ListItemButton>
-        </list>
+
+                <ListItemButton>
+                    <ListItemIcon>
+                        <LightbulbOutlinedIcon sx={{color:'white'}} fontSize="large" />
+                    </ListItemIcon>
+                    <ListItemText primary="Notes" sx={{color:'white'}}/>
+                </ListItemButton>
+                <ListItemButton>
+                    <ListItemIcon>
+                        <LightbulbOutlinedIcon sx={{color:'white'}} fontSize="large" />
+                    </ListItemIcon>
+                    <ListItemText primary="Notes" sx={{color:'white'}}/>
+                </ListItemButton>
+                <ListItemButton>
+                    <ListItemIcon>
+                        <LightbulbOutlinedIcon sx={{color:'white'}} fontSize="large" />
+                    </ListItemIcon>
+                    <ListItemText primary="Notes" sx={{color:'white'}}/>
+                </ListItemButton>
+        </List>
     </div>
   );
 }
